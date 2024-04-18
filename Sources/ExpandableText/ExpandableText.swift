@@ -41,7 +41,7 @@ public struct ExpandableText: View {
     internal var moreButtonText: String = "more"
     internal var moreButtonFont: Font?
     internal var moreButtonColor: Color = .accentColor
-    internal var expandAnimation: Animation = .default
+    internal var expandAnimation: Animation? = .default
     internal var collapseEnabled: Bool = false
     internal var trimMultipleNewlinesWhenTruncated: Bool = true
     
